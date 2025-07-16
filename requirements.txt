@@ -1,0 +1,52 @@
+# Core dependencies
+aiohttp==3.9.1
+aiofiles==23.2.1
+asyncio==3.4.3
+python-dotenv==1.0.0
+pyyaml==6.0.1
+cryptography==41.0.7
+
+# Database
+sqlalchemy==2.0.23
+psycopg2-binary==2.9.9
+redis==5.0.1
+celery==5.3.4
+
+# Web automation
+selenium==4.16.0
+undetected-chromedriver==3.5.4
+playwright==1.40.0
+beautifulsoup4==4.12.2
+
+# AI/ML
+torch==2.1.2
+transformers==4.36.2
+sentence-transformers==2.2.2
+langchain==0.0.350
+huggingface-hub==0.19.4
+faiss-cpu==1.7.4
+
+# Web interface
+gradio==4.12.0
+pandas==2.1.4
+numpy==1.26.2
+matplotlib==3.8.2
+plotly==5.18.0
+
+# Utilities
+schedule==1.2.0
+tenacity==8.2.3
+jinja2==3.1.2
+markdown==3.5.1
+pdfkit==1.0.0
+Pillow==10.1.0
+opencv-python==4.8.1.78
+SpeechRecognition==3.10.1
+gtts==2.5.0
+edge-tts==6.1.9
+
+# Development
+pytest==7.4.3
+black==23.12.1
+flake8==6.1.0
+mypy==1.7.1
