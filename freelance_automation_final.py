@@ -29,7 +29,7 @@ try:
     from cryptography.hazmat.primitives import hashes
     from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
     import yaml
-    from sqlalchemy import create_engine, Column, String, Float, DateTime, Boolean, Text
+    from sqlalchemy import create_engine, Column, String, Float, DateTime, Boolean, Text, func
     from sqlalchemy.ext.declarative import declarative_base
     from sqlalchemy.orm import sessionmaker, scoped_session
     from sqlalchemy.pool import QueuePool
